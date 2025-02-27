@@ -1,0 +1,37 @@
+# Ignore build output directories
+bin/
+obj/
+
+# Ignore Visual Studio files
+.vs/
+.vscode/
+
+# Ignore user-specific files
+*.user
+*.suo
+
+# Ignore log files
+*.log
+
+# Ignore compiled binary files
+*.dll
+*.exe
+*.pdb
+
+# Ignore package directories
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignore IDE-specific files
+*.csproj.user
+
+# Ignore cache files
+*.cache
+
+# Ignore Docker-related files
+Dockerfile
+docker-compose*
+
+# Ignore other unnecessary files
+*.md
