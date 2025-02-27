@@ -29,9 +29,7 @@ yarn-error.log
 # Ignore cache files
 *.cache
 
-# Ignore Docker-related files
-Dockerfile
-docker-compose*
+
 
 # Ignore other unnecessary files
 *.md
