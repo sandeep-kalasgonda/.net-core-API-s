@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.General;
 using TodoApi.Models;
 
 
@@ -21,6 +22,13 @@ if (app.Environment.IsDevelopment())
 
 
    
+    app.UseSwagger();
+    app.UseSwaggerUI( options => {
+        options.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+    }
+       
+    );
+}else{
     app.UseSwagger();
     app.UseSwaggerUI( options => {
         options.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
